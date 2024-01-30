@@ -1,0 +1,103 @@
+h1
+{
+  background-color:#845EC2;
+  text-align: center;
+font-family: 'Merienda', cursive;
+
+}
+h3{
+  text-align:center;
+}
+h2
+{
+    text-align: center;
+}
+h2{
+
+  margin: 5px;
+
+}
+img{
+  width: 200px;
+  height: 200px;
+}
+body{
+  background-color: #C4DDFF;
+}
+.electric-div
+{
+  margin: 10%;
+}
+.plumbing-div
+{
+  margin: 10%;
+}
+.software-div
+{
+  margin: 10%;
+}
+.fullhouse-div
+{
+  margin: 10%;
+}
+.para1
+{
+  text-align: center;
+  position: relative;
+  bottom: 150px;
+  font-size: 20px;
+}
+.button1 {
+  display: inline-block;
+  border-radius: 8px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+
+}
+
+.buttons{
+
+  background-color: black;
+  color:white;
+  padding:10px;
+  height: 50%;
+  border-radius:8px;
+}
+.button1 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button1 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.3s;
+}
+
+.button1:hover span {
+  padding-right: 25px;
+}
+
+.button1:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.button1
+{
+  position: relative;
+  left: 10px;
+  bottom: 100px;
+}
